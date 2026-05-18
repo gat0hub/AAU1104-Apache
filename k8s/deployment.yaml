@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: apache-demo
+  name: apache
   labels:
-    app: apache-demo
+    app: apache
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: apache-demo
+      app: apache
   template:
     metadata:
       labels:
-        app: apache-demo
+        app: apache
     spec:
       containers:
         - name: apache
-          image: oneiran/apache-demo:latest
+          image: branfigueroa/apache:latest
           imagePullPolicy: Always
           ports:
             - name: http
