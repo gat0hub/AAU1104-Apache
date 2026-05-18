@@ -1,0 +1,6 @@
+.git
+.github
+.env
+Dockerfile
+dockerfile
+docker-compose*.yaml
