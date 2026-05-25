@@ -1,8 +1,0 @@
-{
-  "name": "apache",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "test": "exit 0"
-  }
-}
